@@ -32,13 +32,16 @@ const Navbar = () => {
                             <option value="1">Latest</option>
                             <option value="2">favorite</option>
                             <option value="3">Cheapest</option>
-
                         </select>
                     </div>
-              
             </div>
+              {/* <div className="divider"></div>  */}
+
             <div className="right_nav">
-            <div className='impact'></div>
+            <div className='impact'>
+            <label htmlFor="level">Impact Level</label>
+            </div>
+            {/* <div className="divider"></div> */}
             <div className='tools'></div>
             </div>
         </div>
