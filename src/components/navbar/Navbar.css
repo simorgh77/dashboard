@@ -1,0 +1,41 @@
+.nav_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 30px;
+}
+.left_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboardTitle{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #3F4254;
+}
+.breadCrumb{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 21px;
+/* identical to box height, or 175% */
+
+}
+.breadCrumb>a::after{
+    content: " - ";
+}
+a{
+    color: #B5B5C3;
+    text-decoration: none;
+}
+.right_nav{
+    background-color: beige;
+}
+.dashboard{
+    
+}
