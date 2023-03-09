@@ -1,0 +1,34 @@
+.widgetCard{
+width: 28%;
+height: 150px;
+background: #FFFFFF;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+padding: 29.58px;
+}
+
+.widgetImage{
+width: 100%;
+
+}
+.widgetDetail{
+    display: flex;
+    flex-direction: column;
+}
+.widgetDetail :nth-child(1){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+.widgetDetail :nth-child(2){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B5B5C3;
+}

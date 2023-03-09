@@ -1,0 +1,51 @@
+.tableHead{
+    display: flex;
+    background: #F5F8FA;
+    border-radius: 6px;
+    padding: .8rem !important;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+table{
+width: 100%;
+}
+.thead{
+    position: sticky;
+    top: 0;
+    
+}
+.tableHead :nth-child(1){
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #464E5F;
+}
+.tableHead th{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #B5B5C3;
+}
+
+.earning{
+transform: translateX(60px);
+}
+.companyheader{
+transform: translateX(-90px);
+}
+.ratingheader{
+transform: translateX(-70px);
+}

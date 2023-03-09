@@ -1,0 +1,73 @@
+.tableWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.products{
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.earnings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tableWrapper td :nth-child(1){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 21px;
+justify-content: center;
+color: #464E5F;
+}
+.tableWrapper td :nth-child(2){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+margin-top: .1rem;
+justify-content: center;
+color: #B5B5C3;
+}
+
+.offer{
+background-color: #E8FFF3;
+border-radius: 6px;
+padding: .5rem .8rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #50CD89 !important;
+border: none;
+cursor: pointer;
+}

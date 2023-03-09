@@ -3,6 +3,7 @@ import SideBarItems from "../../static/SideBarItems";
 import "./SideBar.css"
 import SideBaritems from '../../static/SideBarItems';
 import Profile from '../profile/Profile';
+import CustomDropDown from '../customdropButton/CustomDropDown';
 
 const Panel = () => {
 
@@ -43,33 +44,19 @@ const Panel = () => {
                 {
                     SideBaritems.map((item,index)=>
                        (
-                        <div className="sideBar"> 
+                        <div className="sideBar" key={index}> 
                        <h2 className='items_header'>
                             {item.Header}
                         </h2>
-                        
+                
                         <div className="sideBar_item">
                             {
-                                item.items.map((btn,index)=>({
-                                },
-
-                                    <div className="item_button">
-                                        <div className="item_elements">
-                                        <span className='icon'>
-                                     
-                                        <img src={`/icons/${btn.icon}`} width="24px" height="24px" alt="app" />
-                                        </span>
-                                        <span className='button_title'>{btn.title}</span> 
-                                        
-                                        </div>
-
-                                        <div className='arrow'>
-                                            <img src="/icons/ArrowRight.svg" alt="arrow" width='7px'/>
-                                        </div>
-                                      
-                                       
-                                    </div>
-                                ))
+                                item.items.map((btn,index)=>(
+                                
+                                    <CustomDropDown key={index} btn={btn}/>
+                                
+        )
+                                )
                             }
                         </div>
                         </div>

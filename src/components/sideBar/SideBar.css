@@ -84,6 +84,7 @@ color: #FFFFFF;
   margin-bottom: 1rem;
   cursor: pointer;
 }
+
 .item_elements{
     display: flex;
     align-items: center;
