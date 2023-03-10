@@ -3,14 +3,10 @@ import "./Navbar.css"
 const Navbar = () => {
     const activeStyle={
         color:"#3F4254",
-        '::after':{
-            content:""
-        }
+
     }
 
     const [impactRange,setImpactRange]=useState(1);
-
-
     console.log(impactRange);
     return (
         <div className='nav_container'>
@@ -21,8 +17,10 @@ const Navbar = () => {
                 <div className='breadCrumb'>
                     {
                         bradCrumb.map((bread,index)=>(
-                           <a href={bread.path} style={bread.active ? activeStyle:{}}>
+                           <a key={index} href={bread.path} style={bread.active ? activeStyle:{}}>
                             {bread.title}
+
+                             {!bread.active&& " - " } 
                             </a>
                         ))
                     }

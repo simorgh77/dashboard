@@ -55,6 +55,7 @@ justify-content: space-between;
 }
 .sideBarIems{
 border: none !important;
+
 }
 
 .items_header{
@@ -65,6 +66,7 @@ font-size: .8rem;
 line-height: 18px;
 color: #646581;
 margin-bottom: 15px;
+
 }
 
 .button_title{
@@ -74,6 +76,7 @@ font-weight: 500;
 font-size: 12px;
 line-height: 18px;
 color: #FFFFFF;
+
 }
 
 .item_button{
@@ -89,4 +92,7 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     gap: 13px;
+}
+.sideBar_item{
+    margin-bottom: 2rem;
 }

@@ -8,6 +8,9 @@ const SideBaritems=[
            {
             title:"Apps",
             icon:"AppIcon.png",
+            dropElement:[
+            "Users","Contacts","Chat"
+            ]
            }
         ]
     },

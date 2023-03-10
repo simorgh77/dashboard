@@ -124,3 +124,9 @@ color: #B5B5C3;
     outline: none;
     cursor: pointer;
 }
+
+.saleHeader 
+{
+    display: flex;
+    justify-content: space-between;
+}

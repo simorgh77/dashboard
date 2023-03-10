@@ -12,7 +12,6 @@ function App() {
         <SideBar />
       </div>
 
-
       <div className="widgets">
         {WidgetItems.map((widget, index) => (
           <WidgetCards
@@ -29,8 +28,10 @@ function App() {
 
       <div className="contents">
         <div className="saleProgress">
+          <div className="saleHeader">
           <h2>Sales Progress</h2>
-
+          <img src="/icons/Dots.svg" alt="dots"  />
+          </div>
           <div className="ProgressContent">
             {ProgressItems.map((p, index) => (
               <ProgressJob
@@ -158,7 +159,7 @@ const ProgressItems = [
 
 const Arrivals = [
   {
-    icon: "Book",
+    icon: "plurk",
     title: "Sant Outstanding",
     description: "bprow@bnc.cc",
     price: "$2,000,000",
@@ -168,7 +169,7 @@ const Arrivals = [
     color: "#8950FC",
   },
   {
-    icon: "Mic",
+    icon: "telegram",
     title: "Telegram Application",
     description: "bprow@bnc.cc",
     price: "$2,000,000",
@@ -178,7 +179,7 @@ const Arrivals = [
     color: "#FFA800",
   },
   {
-    icon: "Messenger",
+    icon: "puzzle",
     title: "Cisco Management",
     description: "bprow@bnc.cc",
     price: "$2,000,000",
@@ -188,7 +189,7 @@ const Arrivals = [
     color: "#50CD89",
   },
   {
-    icon: "Glue",
+    icon: "bebo",
     title: "Hr Management",
     description: "bprow@bnc.cc",
     price: "$2,000,000",

@@ -1,12 +1,13 @@
-import React from 'react';
-import SideBarItems from "../../static/SideBarItems";
+import React,{useState} from 'react';
 import "./SideBar.css"
 import SideBaritems from '../../static/SideBarItems';
 import Profile from '../profile/Profile';
 import CustomDropDown from '../customdropButton/CustomDropDown';
 
+
 const Panel = () => {
 
+    const [select,setSelect]=useState(false);
     return (
         <div className='container'>
             <div className="logo">
@@ -52,10 +53,9 @@ const Panel = () => {
                         <div className="sideBar_item">
                             {
                                 item.items.map((btn,index)=>(
-                                
-                                    <CustomDropDown key={index} btn={btn}/>
-                                
-        )
+                                   <CustomDropDown key={index} btn={btn
+                                    }/>
+                                    )
                                 )
                             }
                         </div>

@@ -10,8 +10,8 @@ const Arrivals = ({icon,title,description,price,
         <div className='arrivalContainer'>
 
             <div  className='arivalWrapper'>
-            <div className="icon">
-                <img src={`/icons/${icon}.svg`} width="50px" alt="icon" />
+            <div className="arrivalIcon">
+                <img src={`/icons/${icon}.svg`} width="30px" alt="icon" />
             </div>
             <div className="details">
                 <div className="title">

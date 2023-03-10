@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 body {
@@ -11,8 +11,8 @@ body {
   font-size: 100%;
 }
 .navbar{
-position: absolute;
-left: 21.1rem;
-  width: 84%;
-  height: 4.5rem;
+position: fixed;
+left: 17.6%;
+width: 84%;
+height: 4.5rem;
 }
